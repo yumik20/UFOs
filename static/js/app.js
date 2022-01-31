@@ -1,23 +1,8 @@
 
-let friends = ["Sarah", "Greg", "Cindy", "Jeff"];
-
-function listLoop(userList) {
-  for (var i = 0; i < userList.length; i++) {
-    console.log(userList[i]);
-  }
-}
-listLoop(friends);
-
-
-
-let vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
-
-for (var i = 0; i < vegetables.length; i++)  {
-  console.log("I love " + vegetables[i]);
-}
-
-console.log(vegetables);
-
+// from data.js
+const tableData = data;
+// get table references
+var tbody = d3.select("tbody");
 
 
 function buildTable(data) {
